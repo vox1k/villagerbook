@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "villagerbook",
+	"version": "${version}",
+	"name": "VillagerBook",
+	"description": "Client-side notebook of villager trades. Remembers every villager you open and lets you search for trades with /vb find.",
+	"authors": [
+		"vox1k"
+	],
+	"icon": "assets/villagerbook/icon.png",
+	"contact": {
+		"sources": "https://github.com/vox1k/villagerbook"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"io.github.vox1k.villagerbook.VillagerBookClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
